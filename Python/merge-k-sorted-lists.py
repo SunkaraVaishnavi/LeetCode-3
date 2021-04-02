@@ -5,14 +5,14 @@
 # Analyze and describe its complexity.
 
 # Definition for singly-linked list.
-class ListNode(object):
-    def __init__(self, x):
-        self.val = x
+class ListNode(object): 
+    def __init__(self, A):
+        self.val = A
         self.next = None
 
     def __repr__(self):		
         if self:		
-            return "{} -> {}".format(self.val, self.next)
+            return "{} => {}".format(self.val, self.next)
 
 
 # Merge two by two solution.
